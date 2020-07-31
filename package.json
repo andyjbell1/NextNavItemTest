@@ -8,6 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@carbon/ibm-security": "^1.28.0",
+    "@carbon/icons-react": "^10.3.0",
+    "carbon-components": "^10.3.0",
+    "carbon-components-react": "^7.3.0",
+    "carbon-icons": "^7.0.7",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
