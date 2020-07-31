@@ -16,14 +16,18 @@ export default function Home() {
       <main>
         <ul>
           <li>
+            {/* Component created using Next Link */}
             <Link href="/posts/first-post"><a>Next Link Component</a></Link>
           </li>
 
           <li>
-             <NavItem element={Link} href="/posts/first-post" id="testLink" className="test">Test</NavItem> 
+            {/* Component created using NavItem - passing in Next Link as element type */}
+            {/* This does not work, comment next line out to build successfully */}
+            <NavItem element={Link} href="/posts/first-post" id="testLink" className="test">Test</NavItem> 
           </li>
 
           <li>
+            {/* Component created using Carbon HeaderMenuItem - passing in Next Link as element type */}
             <HeaderMenuItem element={Link}  href="/posts/first-post"><a href="/posts/first-post">Next Link using Carbon HeaderMenuItem</a></HeaderMenuItem>
           </li>
         </ul>
